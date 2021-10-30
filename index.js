@@ -64,14 +64,14 @@ async function run () {
         // Update Order Services
         app.put('/addOrders/:id', async (req , res)=> {
             const id = req.params.id;
-            const quary = {_id: ObjectId(id)}
-            const option = {upsert: true};
+            const query = {_id: ObjectId(id)}
+            const option = {upset: true};
             const updateDoc = {
                 $set : {
                     status : 'Approved'
                 },
             };
-            const result = await orderServiceCollection.updateOne(quary, updateDoc, option)
+            const result = await orderServiceCollection.updateOne(query, updateDoc, option)
             res.json(result)
         })
       }
