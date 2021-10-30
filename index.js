@@ -72,7 +72,7 @@ async function run () {
                 },
             };
             const result = await orderServiceCollection.updateOne(quary, updateDoc, option)
-            res.json(result)
+            res.send(result)
         })
       }
       finally{
