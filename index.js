@@ -58,7 +58,7 @@ async function run () {
             const id = req.params.id;
             const query = {_id:ObjectId(id)};
             const result = await orderServiceCollection.deleteOne(query);
-            res.send(result);
+            res.json(result);
         })
 
         // Update Order Services
@@ -72,7 +72,7 @@ async function run () {
                 },
             };
             const result = await orderServiceCollection.updateOne(quary, updateDoc, option)
-            res.send(result)
+            res.json(result)
         })
       }
       finally{
