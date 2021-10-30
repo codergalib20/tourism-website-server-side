@@ -50,7 +50,7 @@ async function run () {
           app.post('/addOrders', async (req, res)=> {
               const order = req.body;
              const result = await orderServiceCollection.insertOne(order);
-             res.send(result);
+             res.json(result);
           })
 
         //   Delete Order Service 
