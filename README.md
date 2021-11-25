@@ -5,8 +5,8 @@
 ## 🔗 Links
 
 [Live SiteLink](https://tourist-tour-886c2.web.app/)
-[Server Side Code Link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-codergalib20)
-[Client Side Code Link ](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-codergalib20)
+[Server Side Code Link](https://github.com/codergalib20/tourism-website-server-side)
+[Client Side Code Link ](https://github.com/codergalib20/tourism-website-client-side)
 
 ## 🛠 To complete the project which has been used
 
